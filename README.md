@@ -96,3 +96,5 @@ For more information on how to train a Constituency parser using stanza, refer t
 Finally, some of the treebanks used for the constituency models had different structure than expected (Most libraries expect the PennTreeBank structure `PTB`). To prepare the datasets, a script was created and added to the local cloned repo of `stanza` and the main script to prepare the datasets was also modified to add all the treebanks used:
 * `convert_en_masc.py` New script used to convert the EN MASC treebank to PTB format.
 *  `prepare_con_dataset.py` Stanza script modified to add all the treebanks used to train the constituency parsers. 
+
+Both of this Scripts go to the same directory of the local cloned stanza: `stanza/stanza/utils/datasets/constituency/`.
