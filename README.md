@@ -13,6 +13,10 @@ All the implementations are located in the Jupyter Notebook: `PoSConstDepParsers
 > At the time of writing this README, there is a bug on GitHub where the Jupyter Notebooks do not render in the preview page. More info on this issue can be found here: [Notebook no longer rendering on GitHub: "state" key missing from metadata.widgets #155944](https://github.com/orgs/community/discussions/155944). If a solution is found to this issue I will update this README to remove this warning.
 
 
+You can read the full report I wrote for this task in the `report(spanish).pdf` file. It is written in Spanish. If someone is interested I might translate it to english in the future. 
+
+The Notebook itself also has almost everything explained (also in Spanish), again if requested I might translate it to English in the future.
+
 
 ## Tasks
 The tasks proposed for the completion of this project are described as follows (translated to english):
