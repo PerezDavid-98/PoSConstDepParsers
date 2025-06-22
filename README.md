@@ -83,7 +83,7 @@ For all the cases where `SpaCy` was used, a `configuration.cfg` file was created
 They contain the language and pipeline used for each model. More information about these configuration files can be found in the [SpaCy Documentation](https://spacy.io/usage/training#config).
 This file is not completed as is, a command has to be used to complete the configuration file, those command are also added in the notebook.
 
-Also, to get the outputs in `.conllu` format from `SpaCy` and additional library is needed: `spacy_conll`. Then a component is added to the model pipeline to be able to output in `Conllu` format. 
+Also, to get the outputs in `.conllu` format from `SpaCy` an additional library is needed: `spacy_conll`. Then a component `conll_formatter` has to be added to the model's pipeline to be able to output files in `Conllu` format.
 
 
 Finally, the evaluation was carried out using a wrapper function using a portion of the `conll18_ud_eval.py` script from the [CoNLL 2018 Shared Task](https://universaldependencies.org/conll18/evaluation.html) and also added to this repository.
