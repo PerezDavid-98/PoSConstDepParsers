@@ -86,9 +86,9 @@ This file is not completed as is, a command has to be used to complete the confi
 Also, to get the outputs in `.conllu` format from `SpaCy` an additional library is needed: `spacy_conll`. Then a component `conll_formatter` has to be added to the model's pipeline to be able to output files in `Conllu` format.
 
 
-Finally, the evaluation was carried out using a wrapper function using a portion of the `conll18_ud_eval.py` script from the [CoNLL 2018 Shared Task](https://universaldependencies.org/conll18/evaluation.html) and also added to this repository.
+Finally, the evaluation was carried out using a wrapper function I wrote (added in the notebook) using a portion of the `conll18_ud_eval.py` script from the [CoNLL 2018 Shared Task](https://universaldependencies.org/conll18/evaluation.html), also added to this repository.
 
-In the cases where `Stanza` was used it was necessary to clone the repo to properly train the models, more info on this process can be found in the [Stanza Documentation](https://stanfordnlp.github.io/stanza/training_and_evaluation.html).
+In the cases where `Stanza` was used, it was necessary to clone the repo to properly train the models, more info on this process can be found in the [Stanza Documentation](https://stanfordnlp.github.io/stanza/training_and_evaluation.html).
 
 For the constituency parsers using `Stanza`, a configuration script had to be created to set environment variables that point to the proper directories. That configuration can be found in this repository in `2/config.sh`. I placed this configuration script in the stanza directory (after cloning the repo) in `stanza/scripts/config.sh`. 
 For more information on how to train a Constituency parser using stanza, refer to the [Stanza documentation](https://stanfordnlp.github.io/stanza/new_language_constituency.html)
